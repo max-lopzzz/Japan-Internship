@@ -2,7 +2,7 @@ import streamlit as st
 import torch
 import matplotlib
 from PIL import Image
-impport numpy as np
+import numpy as np
 
 class Generator(torch.nn.Module):
     def __init__(self, z_dim=100):
